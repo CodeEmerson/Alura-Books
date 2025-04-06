@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.tópicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.tópicos__titulo {
+    color: var(--branco);
+    font-weight: 300;
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.tópicos__item {
+    display: flex;
+    margin: 2em 0.5em;
+}
+
+.tópicos__link {
+    background: var(--laranja);
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1em 1.8em;
+    text-decoration: none
+}
