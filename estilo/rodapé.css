@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+hr { 
+    margin: 0;
+}
+
+
+.rodapé {
+    background-color: var(--branco);
+    padding: 1.5em 1em;
+}
